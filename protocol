@@ -1,0 +1,23 @@
+{
+  requestId: uuid
+  appName: ''
+  type: ''
+  params: {
+    cellDeps: []
+    inputs: []
+    outputs: []
+    outputs_data: []
+  }
+  callback: ''
+}
+
+callback_params
+{
+  code: Number
+  err: string
+  requestId: uuid
+  result: {
+    witness: []
+  }
+  hash: ''
+}
